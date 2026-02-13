@@ -1,9 +1,8 @@
-
 import { GoogleGenAI, Type } from "@google/genai";
 import { MEDICAL_SYSTEM_PROMPT } from "./constants.tsx";
 
 const getApiKey = () => {
-  const key = process.env.API_KEY;
+  const key = process.env.GEMINI_API_KEY;
   if (!key) {
     console.warn("Missing API Key. Ensure GEMINI_API_KEY is set in environment.");
   }
