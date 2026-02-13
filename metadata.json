@@ -1,0 +1,9 @@
+
+{
+  "name": "Med Mastery Pro",
+  "description": "Production Ready Clinical Accelerator",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
